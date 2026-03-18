@@ -26,6 +26,8 @@ function Footer() {
           </p>
         </div>
 
+
+
         <div className="gap-4 flex flex-col md:col-span-2 mt-8">
           <p className="text-white text-xl text-start">Market Place</p>
           <ul className="gap-4 flex flex-col">
@@ -40,6 +42,8 @@ function Footer() {
             </li>
           </ul>
         </div>
+
+
 
         <div className="gap-4 flex flex-col md:col-span-2 mt-8">
           <p className="text-white text-xl text-start">Company</p>
@@ -56,6 +60,8 @@ function Footer() {
           </ul>
         </div>
 
+
+
         <div className="gap-4 flex flex-col md:col-span-2 mt-8">
           <p className="text-white text-xl text-start">Support</p>
           <ul className="gap-4 flex flex-col">
@@ -71,6 +77,8 @@ function Footer() {
           </ul>
         </div>
       </div>
+
+
 
       <div className="flex gap-5 m-10">
         {[
@@ -109,7 +117,7 @@ function Footer() {
         className="h-px bg-linear-to-r from-blue-600/50 to-transparent w-full my-4"
       />
       <div>
-        <p className="text-[#354052] mt-3 text-xs">
+        <p className="text-[#354052] mt-3 text-xs ">
           @ 2023 Carzaar. All rights reserved.
         </p>
       </div>
