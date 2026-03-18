@@ -17,7 +17,6 @@ function Footer() {
                 className="h-15 md:h-25 object-contain "
               />
             </NavLink>
-           
           </div>
           <p className="text-sm text-start ml-8 text-[#354052] w-70/100">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
@@ -27,7 +26,7 @@ function Footer() {
           </p>
         </div>
 
-        <div className="gap-4 flex flex-col md:col-span-2">
+        <div className="gap-4 flex flex-col md:col-span-2 mt-8">
           <p className="text-white text-xl text-start">Market Place</p>
           <ul className="gap-4 flex flex-col">
             <li className="text-sm text-start text-[#354052] hover:text-white hover:underline">
@@ -42,7 +41,7 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="gap-4 flex flex-col md:col-span-2">
+        <div className="gap-4 flex flex-col md:col-span-2 mt-8">
           <p className="text-white text-xl text-start">Company</p>
           <ul className="gap-4 flex flex-col">
             <li className="text-sm text-start text-[#354052] hover:text-white hover:underline">
@@ -57,7 +56,7 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="gap-4 flex flex-col md:col-span-2">
+        <div className="gap-4 flex flex-col md:col-span-2 mt-8">
           <p className="text-white text-xl text-start">Support</p>
           <ul className="gap-4 flex flex-col">
             <li className="text-sm text-start text-[#354052] hover:text-white hover:underline">

@@ -3,8 +3,8 @@ import CarCard from "../../components/CarCard";
 
 const FeaturedList = () => {
   return (
-    <div className="bg-[#0f1923] p-5">
-      <div className="flex flex-row justify-between items-center">
+    <div className="bg-[#0f1923] py-3 ">
+      <div className="flex flex-wrap sm:flex-row gap-3 justify-between items-center px-10 py-5">
         <div>
           <p className="text-white text-2xl font-bold">Featured Listings</p>
           <p className="text-md text-start text-[#354052] mt-2">

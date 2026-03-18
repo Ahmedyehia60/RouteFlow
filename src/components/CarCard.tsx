@@ -20,30 +20,30 @@ const CarCard = () => {
   ];
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-15 w-90/100 mx-auto m-0">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 my-8 px-10 mx-auto">
       {cars.map((car) => (
         <div
           key={car.id}
-          className="bg-[#030617] rounded-4xl overflow-hidden flex flex-col shadow-2xl"
+          className="bg-[#030617] rounded-3xl overflow-hidden flex flex-col shadow-2xl"
         >
-          <div className="h-64 ">
+          <div className="sm:h-60 h-50">
             <img
               src={car.img}
               alt={car.title}
-              className="w-full h-full object-cover rounded-t-4xl"
+              className="w-full h-full object-cover rounded-t-3xl hover:scale-105 transition-transform duration-300"
             />
           </div>
 
           <div className="p-6 flex flex-col gap-4">
             <div className="flex justify-between items-center">
-              <h3 className="text-white text-lg font-bold truncate mr-2">
+              <h3 className="text-white md:text-lg sm:text-sm text-xs font-bold mr-2 md:text-nowrap text-wrap">
                 {car.title}
               </h3>
-              <span className="text-[#155dfd] text-xl font-bold whitespace-nowrap">
+              <span className="text-[#155dfd] md:text-xl text-sm font-bold whitespace-nowrap">
                 {car.price}
               </span>
             </div>
-            <div className="flex gap-4 text-gray-400 justify-between text-sm">
+            <div className="flex flex-wrap gap-4 text-gray-400 justify-between text-xs">
               <div className="flex flex-row items-center gap-1">
                 <IoLocationSharp />
                 <span> Los Angeles, CA</span>
@@ -58,17 +58,21 @@ const CarCard = () => {
               </div>
             </div>
             <div className="h-px bg-gray-800 my-2" />
-            <div className="flex justify-between items-center">
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-2">
               <div className="flex items-center gap-2">
-                <div className="w-8 h-8 rounded-full bg-blue-900 flex items-center justify-center text-[10px] text-blue-300 font-bold">
+                <div className="w-8 h-8 rounded-full bg-blue-900 flex items-center justify-center md:text-[10px] text-[7px] text-blue-300 font-bold">
                   JD
                 </div>
-                <span className="text-white text-sm">John D.</span>
+                <span className="text-white md:text-sm text-xs">John D.</span>
                 <span className="text-yellow-500 text-xs">★★★★★</span>
               </div>
-              <button className="text-[#155dfd] text-sm font-medium hover:underline cursor-pointer">
-                View Details
-              </button>
+              <div className="relative group w-fit">
+                <button className="text-[#155dfd] md:text-sm text-xs font-medium cursor-pointer">
+                  View Details
+                </button>
+
+                <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-[#155dfd] transition-all duration-300 group-hover:w-full"></span>
+              </div>
             </div>
           </div>
         </div>
