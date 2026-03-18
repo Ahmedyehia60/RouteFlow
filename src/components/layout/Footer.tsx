@@ -1,13 +1,21 @@
+import { motion } from "framer-motion";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
-
+import { NavLink } from "react-router-dom";
+import logo from "../../assets/images/logo.png";
 function Footer() {
   return (
-    <footer className="w-full bg-[#030617] p-10 border-t border-[#202a36]">
+    <footer className="w-full bg-[#030617] p-5 border-t border-[#202a36]">
       <div className="grid grid-cols-1 gap-8 md:grid-cols-12">
         <div className="gap-3 flex flex-col md:col-span-5">
           <div className="flex flex-row items-center">
-            <img src="/logo.png" alt="Carzaar Logo" className="w-15 h-10" />
-            <p className="text-white text-2xl text-start">Carzaar</p>
+            <NavLink to="/" className="shrink-0">
+              <motion.img
+                whileHover={{ scale: 1.05 }}
+                src={logo}
+                alt="Carzaar Logo"
+                className="h-12 md:h-16 object-contain "
+              />
+            </NavLink>
           </div>
           <p className="text-sm text-start text-[#354052] w-70/100">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
