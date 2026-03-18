@@ -10,7 +10,6 @@ function PageWrapper() {
       <main className="grow w-full">
         <Outlet />
       </main>
-
       <Footer />
     </div>
   );

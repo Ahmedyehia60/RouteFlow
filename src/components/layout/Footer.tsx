@@ -27,13 +27,13 @@ function Footer() {
         <div className="gap-4 flex flex-col md:col-span-2">
           <p className="text-white text-xl text-start">Market Place</p>
           <ul className="gap-4 flex flex-col">
-            <li className="text-sm text-start text-[#354052] hover:text-white">
+            <li className="text-sm text-start text-[#354052] hover:text-white hover:underline">
               <a href="">All Cars</a>
             </li>
-            <li className="text-sm text-start text-[#354052] hover:text-white">
+            <li className="text-sm text-start text-[#354052] hover:text-white hover:underline">
               <a href="">Live Auctions</a>
             </li>
-            <li className="text-sm text-start text-[#354052] hover:text-white">
+            <li className="text-sm text-start text-[#354052] hover:text-white hover:underline">
               <a href="">Sell a car</a>
             </li>
           </ul>
@@ -41,13 +41,13 @@ function Footer() {
         <div className="gap-4 flex flex-col md:col-span-2">
           <p className="text-white text-xl text-start">Company</p>
           <ul className="gap-4 flex flex-col">
-            <li className="text-sm text-start text-[#354052] hover:text-white">
+            <li className="text-sm text-start text-[#354052] hover:text-white hover:underline">
               <a href="">About Us</a>
             </li>
-            <li className="text-sm text-start text-[#354052] hover:text-white">
+            <li className="text-sm text-start text-[#354052] hover:text-white hover:underline">
               <a href="">Careers</a>
             </li>
-            <li className="text-sm text-start text-[#354052] hover:text-white">
+            <li className="text-sm text-start text-[#354052] hover:text-white hover:underline">
               <a href="">Contact</a>
             </li>
           </ul>
@@ -55,22 +55,22 @@ function Footer() {
         <div className="gap-4 flex flex-col md:col-span-2">
           <p className="text-white text-xl text-start">Support</p>
           <ul className="gap-4 flex flex-col">
-            <li className="text-sm text-start text-[#354052] hover:text-white">
+            <li className="text-sm text-start text-[#354052] hover:text-white hover:underline">
               <a href="">Help center</a>
             </li>
-            <li className="text-sm text-start text-[#354052] hover:text-white">
+            <li className="text-sm text-start text-[#354052] hover:text-white hover:underline">
               <a href="">Privacy</a>
             </li>
-            <li className="text-sm text-start text-[#354052] hover:text-white">
+            <li className="text-sm text-start text-[#354052] hover:text-white hover:underline">
               <a href="">Terms and conditions</a>
             </li>
           </ul>
         </div>
       </div>
-      <div className="flex gap-4 mt-8">
-        <FaFacebook className="text-white" size={20} />
-        <FaInstagram className="text-white" size={20} />
-        <FaLinkedin className="text-white" size={20} />
+      <div className="flex gap-4 mt-8  cursor-pointer">
+        <FaFacebook className="text-white hover:scale-110" size={20} />
+        <FaInstagram className="text-white hover:scale-110" size={20} />
+        <FaLinkedin className="text-white hover:scale-110" size={20} />
       </div>
       <div className="border-t border-[#202a36] mt-8">
         <p className="text-[#354052] mt-3">

@@ -1,14 +1,13 @@
+import FeaturedList from "./FeaturedList";
+import Hero from "./Hero";
 
-import Hero from "./Hero"
+const Home = () => {
+  return (
+    <main>
+      <Hero />
+      <FeaturedList />
+    </main>
+  );
+};
 
-const Home =() => {
-     return(
-      <main>
-        <Hero/>
-      </main>
-     ); 
-
-}
-
-export default Home ; 
-
+export default Home;
