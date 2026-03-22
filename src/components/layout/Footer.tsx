@@ -26,59 +26,60 @@ function Footer() {
           </p>
         </div>
 
-
-
         <div className="gap-4 flex flex-col md:col-span-2 mt-8">
           <p className="text-white text-xl text-start">Market Place</p>
           <ul className="gap-4 flex flex-col">
-            <li className="text-sm text-start text-[#354052] hover:text-white hover:underline">
+            <li className="text-sm text-start text-[#354052] hover:text-white relative group w-fit">
               <a href="">All Cars</a>
+              <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-[#ffffff] transition-all duration-300 group-hover:w-full"></span>
             </li>
-            <li className="text-sm text-start text-[#354052] hover:text-white hover:underline">
+            <li className="text-sm text-start text-[#354052] hover:text-white relative group w-fit">
               <a href="">Live Auctions</a>
+              <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-[#ffffff] transition-all duration-300 group-hover:w-full"></span>
             </li>
-            <li className="text-sm text-start text-[#354052] hover:text-white hover:underline">
+            <li className="text-sm text-start text-[#354052] hover:text-white relative group w-fit">
               <a href="">Sell a car</a>
+              <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-[#ffffff] transition-all duration-300 group-hover:w-full"></span>
             </li>
           </ul>
         </div>
-
-
 
         <div className="gap-4 flex flex-col md:col-span-2 mt-8">
           <p className="text-white text-xl text-start">Company</p>
           <ul className="gap-4 flex flex-col">
-            <li className="text-sm text-start text-[#354052] hover:text-white hover:underline">
+            <li className="text-sm text-start text-[#354052] hover:text-white relative group w-fit">
               <a href="">About Us</a>
+              <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-[#ffffff] transition-all duration-300 group-hover:w-full"></span>
             </li>
-            <li className="text-sm text-start text-[#354052] hover:text-white hover:underline">
+            <li className="text-sm text-start text-[#354052] hover:text-white relative group w-fit">
               <a href="">Careers</a>
+              <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-[#ffffff] transition-all duration-300 group-hover:w-full"></span>
             </li>
-            <li className="text-sm text-start text-[#354052] hover:text-white hover:underline">
+            <li className="text-sm text-start text-[#354052] hover:text-white relative group w-fit">
               <a href="">Contact</a>
+              <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-[#ffffff] transition-all duration-300 group-hover:w-full"></span>
             </li>
           </ul>
         </div>
-
-
 
         <div className="gap-4 flex flex-col md:col-span-2 mt-8">
           <p className="text-white text-xl text-start">Support</p>
           <ul className="gap-4 flex flex-col">
-            <li className="text-sm text-start text-[#354052] hover:text-white hover:underline">
+            <li className="text-sm text-start text-[#354052] hover:text-white relative group w-fit">
               <a href="">Help center</a>
+              <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-[#ffffff] transition-all duration-300 group-hover:w-full"></span>
             </li>
-            <li className="text-sm text-start text-[#354052] hover:text-white hover:underline">
+            <li className="text-sm text-start text-[#354052] hover:text-white relative group w-fit">
               <a href="">Privacy</a>
+              <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-[#ffffff] transition-all duration-300 group-hover:w-full"></span>
             </li>
-            <li className="text-sm text-start text-[#354052] hover:text-white hover:underline">
+            <li className="text-sm text-start text-[#354052] hover:text-white relative group w-fit">
               <a href="">Terms and conditions</a>
+              <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-[#ffffff] transition-all duration-300 group-hover:w-full"></span>
             </li>
           </ul>
         </div>
       </div>
-
-
 
       <div className="flex gap-5 m-10">
         {[
