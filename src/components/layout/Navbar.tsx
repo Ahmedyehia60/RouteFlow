@@ -13,7 +13,7 @@ function Navbar() {
   ];
 
   return (
-    <header className="bg-[#030617] drop- text-white px-6 py-2 relative shadow-md shadow-black/50">
+    <header className="bg-[#030617] drop- text-white px-6 py-2  shadow-md shadow-black/50 fixed top-0 w-full z-50">
       <div className="flex items-center justify-between">
         <NavLink to="/" className="shrink-0">
           <motion.img
